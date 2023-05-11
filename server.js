@@ -19,7 +19,7 @@ app.use("/api/users", userRoute);
 app.use("/api/orders", ordersRoute);
 
 app.get("/", (req, res) => {
-  res.send("server working🔥");
+  res.send("Hello! dsPizzeria server working🔥");
 });
 app.get("/getpizzas", (req, res) => {
   Pizza.find({}, (err, docs) => {
@@ -33,4 +33,4 @@ app.get("/getpizzas", (req, res) => {
 
 const port = process.env.PORT || 8000;
 
-app.listen(port, () => `Server running on port🔥`);
+app.listen(port, () => `dsPizzeria API Server running on port🔥`);

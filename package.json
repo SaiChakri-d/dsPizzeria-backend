@@ -13,7 +13,7 @@
     "client": "npm start --prefix client",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Sai Chakri D",
   "license": "ISC",
   "dependencies": {
     "build": "^0.1.4",
