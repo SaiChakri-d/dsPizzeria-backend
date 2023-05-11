@@ -10,7 +10,8 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "7.x"
   },
   "author": "Sai Chakri D",
   "license": "ISC",
