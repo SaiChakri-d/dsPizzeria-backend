@@ -2,16 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "server": "nodemon server.js",
+    "server": "nodemon index.js",
     "client": "npm start --prefix client",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "engines": {
-    "node": "14.x",
-    "npm": "7.x"
+    "node": "14.x"
   },
   "author": "Sai Chakri D",
   "license": "ISC",
