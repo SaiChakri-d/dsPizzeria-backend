@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "start": "node server.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "author": "Sai Chakri D",
   "license": "ISC",
